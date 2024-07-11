@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+
+.nav-link {
+  color: rgb(19, 18, 18) !important;
+}
+
+#footer {
+  padding: 5vh 15vw;
+  background-color: black;
+  width: 100vw;
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+#footer-left {
+  width: 46%;
+}
+
+#footer-left h1 {
+  line-height: 2;
+}
+
+#footer-left p {
+  font-weight: lighter;
+}
+
+#footer-right {
+  width: 46%;
+  /* background-color: rgb(206, 110, 110); */
+  color: white;
+}
+
+#footer-right h3 {
+  line-height: 3;
+}
+
+#footer-right h5 {
+  line-height: 2;
+  font-weight: lighter;
+  width: fit-content;
+}
+
+#footer-right h5:hover {
+  scale: 1.2;
+  padding: 0px 5px;
+  border-radius: 100px;
+  background-color: white;
+  color: black;
+  transition: ease, 0.3s;
+
+}
+
+#footer-left a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+  margin: 2px;
+}
+
+#footer-left a:hover {
+  scale: 1.2;
+  background-color: white;
+  color: black;
+  border-radius: 100px;
+  transition: ease-in-out, 0.3s;
+}
+
+
+/* card */
+.listing-link {
+  text-decoration: none;
+}
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text {
+  margin-bottom: 0 !important;
+  font-family: 400 !important;
+}
+
+/* card effect */
+
+.card-img-overlay:hover {
+  background-color: rgba(255, 255, 255, 0.44)
+}
+
+/* MAP */
+#map { 
+  height:400px ;
+  width: 100%;
+ }
